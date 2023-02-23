@@ -1,0 +1,76 @@
+
+h1{
+    font-family: "shippori Mincho", "Arial", sans-serif;
+    font-size: 3em;
+    font-weight: 200;
+    text-align: center;
+    border-bottom: solid ;
+    border-width: 2px ;
+    border-color: #897d5a;
+    margin-left: 5%;
+    margin-right: 5%;
+    color: #48402b;
+}
+body{
+    background-color: #e3dfdd;   
+    font-family: "shippori Mincho", "Arial", sans-serif;
+
+}
+#navigation{
+    background-color: #b4b19e;
+    display:flex;
+    margin-left: 7%;
+    margin-right: 7%;
+    justify-content: space-around;
+    border-radius: 1em;
+    padding-top:10px;
+    padding-bottom: 10px;
+    font-family:"shippori Mincho", "Arial", sans-serif;
+    font-size:1em;
+    font-weight: 800;
+    margin-bottom: 25px;
+    
+    
+
+}
+a{ 
+    text-decoration: none;
+    color: #48402b;
+}
+a:hover{
+    text-transform: capitalize;
+}
+#main{
+    overflow: hidden;
+    height: 400px;
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    margin-left: 2em;
+
+}
+#famPic{
+    width: 25%;
+    height: auto;
+    position: absolute;
+    bottom: 0;
+    border-bottom: solid;
+    border-color: #897d5a;
+    border-width: .5em;
+    opacity: .75 ;
+
+
+    
+}
+#aboutme{
+    margin-right: 20em;
+    margin-top: 5em;
+    text-align: center;
+}
+button{
+    font-family: "shippori Mincho", "Arial", sans-serif;
+    background-color: #a56e5f ;
+    opacity: .8;
+    border-radius: .75em;
+    paddin;
+}
