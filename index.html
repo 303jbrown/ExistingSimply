@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <script src="app.js" defer></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Shippori+Mincho:wght@400;500;600;700;800&display=swap" rel="stylesheet">
@@ -21,16 +22,66 @@
         <div class="navlist"><a href="Subpages/food.html">food</a></div>
         <div class="navlist"><a href="Subpages/healing.html">healing</a></div>
         <div class="navlist"><a href="Subpages/music.html">music</a></div>
-        <div class="navlist"><a href="Subpages/smartbuys.html">smart buys</a></div>
+        <div class="navlist"><a href="Subpages/smartbuys.html">doing my part</a></div>
     </section>
     <section id="main">
-        <div class="mainContent"><img id="famPic" src="img/108A9842.jpg" alt="" srcset=""></div>
-        <div id="aboutme" class="mainContent" >
-            <h2><a href="Subpages/aboutme.html">Hey, I'm Jacquie!</a></h2>
+        <div class="mainContent">
+            <div class="fampic-Container">
+                <img id="famPic" src="img/us2.jpg" alt="" srcset="">
+            </div>
+            <div class="aboutme">
+            <h2>Hey, I'm Jacquie!</h2>
             <p>Here sharing my journey of existance. </p>
             <p>Hoping to inspire you to embark on your own adventure of existing simply ...</p>
-            <button>learn more about me</button>
+            <button><a href="subPages/aboutme.html">learn more about me</a> </button>
+            </div>
         </div>
     </section>
+    <section id="topics">
+        <div class="preview">
+            <h2><a href="subPages/adventure.html">adventures</a> </h2>
+            
+        </div>
+        <div class="preview">
+            <h2><a href="subPages/family.html">family</a> </h2>
+        </div>
+        <div class="preview">
+            <h2><a href="subPages/food.html">food</a></h2>
+        </div>
+        <div class="preview">
+            <h2><a href="subPages/healing.html">healing</a></h2>
+        </div>
+        <div class="preview">
+            <h2><a href="subPages/music.html">music</a></h2>
+        </div>
+        <div class="preview">
+            <h2><a href="subPages/doingmypart.html">doing my part</a></h2>
+        </div>
+    </section>
+    <section id="email">
+        <div class="notification"><h3>sign up for new post notifications </h3></div>
+        <form action="" method="" id="user-form">
+            <div class="information">
+                <label for="name"></label>
+                <input type="text" name="name" id="name" placeholder="First Name" >
+            </div>
+            <div class="information">
+                <label for="name"></label>
+                <input type="text" name="email" id="emailaddress" placeholder="Email address" >
+            </div>
+            <div class="information">
+                <input type="submit" id="submit" value="Subscribe">
+            </div>
+        </form>
+    </section>
+    <footer>
+        <div class="footer">
+
+        
+        <ul id="message">
+        </div>
+
+        </ul>
+    </footer>
 </body>
 </html>
